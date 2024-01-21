@@ -1,4 +1,4 @@
-name: pyhton unit test cases
+name: python unit test cases
 
 on:
   push:
@@ -16,7 +16,7 @@ jobs:
        run: pip install -r requirements.txt
 
      - name: Run unit tests
-        run: python -m unittest tests.testcases.py
+       run: python -m unittest tests.testcases.py
 
 
      - name: Notify on success
