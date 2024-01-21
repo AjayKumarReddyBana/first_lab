@@ -5,12 +5,9 @@ on:
     branches:
      - master
 
-
-
-
 jobs:
   build:
-     runs-on: mac-latest
+     runs-on: ubuntu-latest
 
 
      steps:
